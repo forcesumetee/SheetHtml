@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/stype.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <section class="section" id="header">
+    <h1>Force</h1>
+    <h2>Force</h2>
+    <h3>Force</h3>
+    <h4>Force</h4>
+    <h5>Force</h5>
+    <h6>Force</h6>
+   </section>
+   
+   <section class="section" id="paragraph">
+    <p>This is a <b>Force </b></p>
+    <p>This is a <strong>Force</strong></p>
+    <p>This is a <em>Force</em></p>
+    <p>This is a <mark>Force</mark></p>
+    <p>this is a <sub>Force</sub></p>
+    <p>this is a <del>Force</del></p>
+    </section>
+
+    <section class="section" id="quotation">
+        <p>This is a <q>Force</q></p>
+        <blockquote>
+            this is a Force.this is a Force.this is a Force.this is a Force.this is a Force.this is a Force.
+        </blockquote>
+        <bdo dir="rtl">This is a Force</bdo>
+        <p>This is a <abbr title="Force Bell Family"></abbr>FBL</p>
+    </section>
+    <section class="section" id="comment">
+         <!--<p>This is a Force</p> -->
+         <!--
+            <p>This is a Force</p> 
+            <p>This is a Force</p> 
+            <p>This is a Force</p> 
+            <p>This is a Force</p>-->
+            <p>This is a<!--Force--></p>
+    </section>
+    <section class="section" id="Link">
+        <a href="https://www.google.com">GOOGLE</a><br>
+        <a href="https://www.google.com" target="_blank">GOOGLE</a>
+        <a href="https://www.google.com"><p>This is a Google</p></a>
+    </section>
+    <section class="section" id="Media">
+        <img src="image/1.webp" alt="" height='400'>
+        <img src="image/1.webp" alt="" width="400">
+        <img src="image/1.webp" alt="" width="400" height="400">
+        <img src="image/2.webp" alt="อาหาร" width="400">
+        <video src="https://futureskill.s3-ap-southeast-1.amazonaws.com/super+content.mp4" width="400"></video>
+        <audio src="audio/Flying.mp3" autoplay></audio>
+    </section>
+    <section class="section" id="table">
+        <table>
+            <caption>My table</caption>
+            <tr>
+                <th colspan="2" rowspan="2">title</th>
+                <th colspan="2" rowspan="2">date</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>20/02/2020</td>
+            </tr>
+            <tr>
+                <td>Force</td>
+                <td>11/07/2002</td>
+            </tr>
+        </table>
+    </section>
+    <section class="section" id="List">
+        <ol>
+            <li>my list a</li>
+            <li>my list b</li>
+            <li>my list c</li>
+        </ol>
+        <ol type="A">
+            <li>my list a</li>
+            <li>my list b</li>
+            <li>my list c</li>
+        </ol>
+        <ol type="I">
+            <li>my list a</li>
+            <li>my list b</li>
+            <li>my list c</li>
+        </ol>
+        <ul style="list-style-type:square;">
+            <li>my list a</li>
+            <li>my list b</li>
+            <li>my list c</li>
+        </ul>
+        <dl>
+            <dt>A</dt>
+            <dd>My name is A</dd>
+            <dt>B</dt>
+            <dd>My name is B</dd>
+        </dl>
+    </section>
+    <section class="section" id="iframe"> 
+        <iframe width="400" height="270"  src="https://www.youtube.com/embed/xXzMnO5xBWY" ></iframe>
+    </section>
+
+    <section class="section" id="script">
+        <p id="test-script">THIS IS A</p>
+        <script>
+            function runAlert(){
+            alert("this is a script");
+            }
+            document.getElementById('test-script').innerHTML = "MY NAME IS"
+        </script>
+        <script type="text/javascript" src="" defer></script>
+        <script>
+            alert("สวัสดีครับ!!!")
+        </script>
+        <script type="text/javascript" src=""  async defer></script>
+    </section>
+    <section class="section" id="code">
+        <pre>
+            <code>
+                function test(a,b){
+                    return a+b;
+                }
+            </code>
+        </pre>
+        <p><var>x</var> = 1+2</p>
+    </section>
+    <section class="section" id="from">
+        <form>
+            text:<input type="text"><br><br>
+            text2:<input type="text2" readonly value="README"><br><br>
+            number:<input type="number"><br><br>
+            password:<input type="password"><br><br>
+            submit: <input type="submit">   
+            textarea:<textarea name=""cols="30" rows="10"></textarea><br><br>
+            select:<select name="">
+                <option value="A">Ant</option>
+                <option value="B" selected>Brid</option>
+                <option value="C">Cat</option>
+            </select>
+            blue:<input type="radio" value="blue">
+            red:<input type="radio" value="red">
+            green:<input type="checkbox" value="green">
+            <input type="text" disabled>
+            <button onsubmit="" type="submit">Click me</button>
+            
+        </form>
+    </section>
+</body>
+</html>
